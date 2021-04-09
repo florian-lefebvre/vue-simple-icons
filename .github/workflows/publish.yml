@@ -16,8 +16,9 @@ jobs:
           registry-url: https://registry.npmjs.org
       - name: Install dependencies
         run: yarn
-      - name: Generate components and dist files
-        run: yarn build
+      - name: Generate components and dist files [TEMPORARY]
+        # run: yarn build
+        run: yarn prebuild && yarn build:unpkg
       # - run: git config --global user.email "$GITHUB_ACTOR@users.noreply.github.com" && git config --global user.name "$GITHUB_ACTOR"
       # - run: yarn version --minor
       # - run: git push --tags && git push

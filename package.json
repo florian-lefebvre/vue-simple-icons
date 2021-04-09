@@ -1,6 +1,6 @@
 {
-  "name": "vue-two-simple-icons",
-  "version": "0.3.2",
+  "name": "@florian-lefebvre/vue-two-simple-icons",
+  "version": "0.1.0",
   "license": "MIT",
   "author": {
     "name": "Florian LEFEBVRE",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/florian-lefebvre/vue-two-simple-icons"
+    "url": "https://github.com/florian-lefebvre/vue-two-simple-icons.git"
   },
   "description": "Simple Icons as Vue components.",
   "main": "dist/vue-two-simple-icons.ssr.js",
