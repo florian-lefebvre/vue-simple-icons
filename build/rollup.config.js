@@ -79,7 +79,7 @@ if (!argv.format || argv.format === 'es') {
     input: 'src/entry.esm.js',
     external,
     output: {
-      file: 'dist/vue-two-simple-icons.esm.js',
+      file: 'dist/vue-simple-icons.esm.js',
       format: 'esm',
       exports: 'named',
     },
@@ -111,9 +111,9 @@ if (!argv.format || argv.format === 'cjs') {
     external,
     output: {
       compact: true,
-      file: 'dist/vue-two-simple-icons.ssr.js',
+      file: 'dist/vue-simple-icons.ssr.js',
       format: 'cjs',
-      name: 'VueTwoSimpleIcons',
+      name: 'VueSimpleIcons',
       exports: 'auto',
       globals,
     },
@@ -141,9 +141,9 @@ if (!argv.format || argv.format === 'iife') {
     external,
     output: {
       compact: true,
-      file: 'dist/vue-two-simple-icons.min.js',
+      file: 'dist/vue-simple-icons.min.js',
       format: 'iife',
-      name: 'VueTwoSimpleIcons',
+      name: 'VueSimpleIcons',
       exports: 'auto',
       globals,
     },
